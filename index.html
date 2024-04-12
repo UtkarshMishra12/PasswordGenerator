@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -13,9 +14,9 @@
 
             <input readonly placeholder="Password" class="display" data-passwordDisplay>
 
-            <button data-copy>
-                <span data-copyMsg></span>
-                <img src="./assets/copy-text-svgrepo-com.svg" alt="Copy" height="23" width="23">
+            <button class="copyBtn" data-copy>
+                <span class="tooltip" data-copyMsg></span>
+                <img src="./assets/copy.svg" alt="Copy" height="23" width="23">
             </button>
 
         </div>
